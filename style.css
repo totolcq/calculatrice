@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+body {
+    background-color:darkgrey;
+    display:grid;
+    justify-content:center;
+  }
+  .calc{
+    border:1px solid grey;
+    background-color:black;
+    display:grid;
+    width:50vw;
+    height:100vh;
+    grid-template-rows:1.5fr 2fr 1fr 1fr 1fr 1.5fr;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 2px 2px;
+    grid-template-areas: 
+      "screen screen screen screen"
+      "clear clear escape divide"
+      "seven eight nine mult"
+      "four five six sub"
+      "one two three add"
+      "zero zero zero equals";
+  }
+  .screen{
+    grid-area:screen;
+  }
+  .clear{
+    grid-area:clear;
+  }
+  .escape{
+    grid-area:escape;
+  }
+  .divide{
+    grid-area:divide;
+  }
+  .screen{
+    grid-area:screen;
+  }
+  .seven{
+    grid-area:seven;
+  }
+  .eight{
+    grid-area:eight;
+  }
+  .nine{
+    grid-area:nine;
+  }
+  .mult{
+    grid-area:mult;
+  }
+  .four{
+    grid-area:four;
+  }
+  .five{
+    grid-area:five;
+  }
+  .six{
+    grid-area:six;
+  }
+  .sub{
+    grid-area:sub;
+  }
+  .one{
+    grid-area:one;
+  }
+  .two{
+    grid-area:two;
+  }
+  .three{
+    grid-area:three;
+  }
+  .add{
+    grid-area:add;
+  }
+  .zero{
+    grid-area:zero;
+  }
+  .equals{
+    grid-area:equals;
+  }
+  .screen{
+    display:flex;
+    justify-content: flex-end;
+    background-color:black;
+    color:white;
+    align-items:center;
+    font-size:2em;
+  }
+ 
+  
+  
