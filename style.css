@@ -43,31 +43,31 @@ body {
   .clear{
     grid-area:clear;
   }
-  .escape{
+  .retour{
     grid-area:escape;
   }
-  .divide{
+  .division{
     grid-area:divide;
   }
   .screen{
     grid-area:screen;
   }
-  .seven{
+  .sept{
     grid-area:seven;
   }
-  .eight{
+  .huit{
     grid-area:eight;
   }
-  .nine{
+  .neuf{
     grid-area:nine;
   }
   .mult{
     grid-area:mult;
   }
-  .four{
+  .quatre{
     grid-area:four;
   }
-  .five{
+  .cinq{
     grid-area:five;
   }
   .six{
@@ -76,13 +76,13 @@ body {
   .sub{
     grid-area:sub;
   }
-  .one{
+  .un{
     grid-area:one;
   }
-  .two{
+  .deux{
     grid-area:two;
   }
-  .three{
+  .trois{
     grid-area:three;
   }
   .add{
@@ -91,7 +91,7 @@ body {
   .zero{
     grid-area:zero;
   }
-  .equals{
+  .egal{
     grid-area:equals;
   }
   .screen{
