@@ -1,6 +1,6 @@
 function affiche() 
     {   
-        resultat.textContent = this.resultat;
+        resultat.textContent = this.bouton;
     }
 
 let bouton = document.getElementsByTagName("button");
