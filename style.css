@@ -44,46 +44,46 @@ body {
     grid-area:clear;
   }
   .retour{
-    grid-area:escape;
+    grid-area:reour;
   }
   .division{
-    grid-area:divide;
+    grid-area:division;
   }
   .screen{
     grid-area:screen;
   }
   .sept{
-    grid-area:seven;
+    grid-area:sept;
   }
   .huit{
-    grid-area:eight;
+    grid-area:huit;
   }
   .neuf{
-    grid-area:nine;
+    grid-area:neuf;
   }
   .mult{
     grid-area:mult;
   }
   .quatre{
-    grid-area:four;
+    grid-area:quatre;
   }
   .cinq{
-    grid-area:five;
+    grid-area:cinq;
   }
   .six{
     grid-area:six;
   }
   .sub{
-    grid-area:sub;
+    grid-area:➖;
   }
   .un{
-    grid-area:one;
+    grid-area:un;
   }
   .deux{
-    grid-area:two;
+    grid-area:deux;
   }
   .trois{
-    grid-area:three;
+    grid-area:trois;
   }
   .add{
     grid-area:add;
@@ -92,7 +92,7 @@ body {
     grid-area:zero;
   }
   .egal{
-    grid-area:equals;
+    grid-area:egal;
   }
   .screen{
     display:flex;
