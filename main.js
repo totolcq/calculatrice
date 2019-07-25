@@ -1,11 +1,14 @@
-function affiche() {   
-    this.textContent();
-}
+function affiche() 
+    {   
+        document.getElementsByTagName("button") ;
+    }
+
 let bouton = document.getElementsByTagName("button");
-bouton.addEventListener("click", affiche);
+
 
 for (let i=0; i<bouton.length; i++)
 {
-    
+    bouton[i].addEventListener("click", affiche);
 }
+
 
