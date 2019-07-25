@@ -13,9 +13,6 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.6rem;
-}
-
-body {
     background-color:darkgrey;
     display:grid;
     justify-content:center;
@@ -43,47 +40,47 @@ body {
   .clear{
     grid-area:clear;
   }
-  .retour{
-    grid-area:reour;
+  .escape{
+    grid-area:escape;
   }
-  .division{
-    grid-area:division;
+  .divide{
+    grid-area:divide;
   }
   .screen{
     grid-area:screen;
   }
-  .sept{
-    grid-area:sept;
+  .seven{
+    grid-area:seven;
   }
-  .huit{
-    grid-area:huit;
+  .eight{
+    grid-area:eight;
   }
-  .neuf{
-    grid-area:neuf;
+  .nine{
+    grid-area:nine;
   }
   .mult{
     grid-area:mult;
   }
-  .quatre{
-    grid-area:quatre;
+  .four{
+    grid-area:four;
   }
-  .cinq{
-    grid-area:cinq;
+  .five{
+    grid-area:five;
   }
   .six{
     grid-area:six;
   }
   .sub{
-    grid-area:➖;
+    grid-area:sub;
   }
-  .un{
-    grid-area:un;
+  .one{
+    grid-area:one;
   }
-  .deux{
-    grid-area:deux;
+  .two{
+    grid-area:two;
   }
-  .trois{
-    grid-area:trois;
+  .three{
+    grid-area:three;
   }
   .add{
     grid-area:add;
@@ -91,9 +88,10 @@ body {
   .zero{
     grid-area:zero;
   }
-  .egal{
-    grid-area:egal;
+  .equals{
+    grid-area:equals;
   }
+  
   .screen{
     display:flex;
     justify-content: flex-end;
