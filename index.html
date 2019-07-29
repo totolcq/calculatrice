@@ -18,11 +18,11 @@ Le but: Produire une calculatrice en HTML/CSS et avec des actions en JS
 <body>
     
   <div class="calcul">
-    <section class="screen">
+    <div class="screen" id="screen">
       0
-    </section>
-    <button class="calc-button clear" value="0">C</button>
-    <button class="calc-button escape">⬅</button>
+    </div>
+    <button class="calc-button clear" value="0" id="clear">C</button>
+    <button class="calc-button escape" id="return">⬅</button>
     <button class="calc-button divide" value="/">/</button>
     <button class="calc-button seven" value="7">7</button>
     <button class="calc-button eight" value="8">8</button8>
@@ -37,7 +37,7 @@ Le but: Produire une calculatrice en HTML/CSS et avec des actions en JS
     <button class="calc-button  three" value="3">3</button>
     <button class="calc-button  add" value="+">+</button>
     <button class="calc-button  zero" value="0">0</button>
-    <button class="calc-button  equals" value="=">=</button>
+    <button  id="egal">=</button>
   </div>
     
     
